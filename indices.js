@@ -8,5 +8,13 @@ let bookSeries = [
 
 ];
 
-console.log(bookSeries);
-console.log(bookSeries[1]);
+onsole.log(bookSeries[0][0], bookSeries[0][1], bookSeries[0][2]); 
+console.log(bookSeries[1][0], bookSeries[1][1], [1][2]); 
+console.log(bookSeries[2][0], bookSeries[2][1], bookSeries[2][2]);
+
+let row = 1; 
+let item = 2; 
+console.log(bookSeries[row][item]);
+
+ 
+for (let i = 0; i < bookSeries[1].length; i++) { 
